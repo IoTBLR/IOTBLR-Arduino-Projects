@@ -107,7 +107,7 @@ void loop(){
     Serial.println(sensorValue);  
 #endif
 
-    digitalWrite(ledPin,250);
+    digitalWrite(ledPin,HIGH);
     //delay(pause);
   }
   else
